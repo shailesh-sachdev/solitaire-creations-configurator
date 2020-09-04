@@ -8,7 +8,7 @@ var customInputText = document.querySelector(".text-area");
 var presetOptions = document.querySelector("preset-options");
 
 document.querySelector(".shape-1").addEventListener("click", function(){
-previewImg.src="new images/Untitled design (2) (1).png";
+previewImg.src="New images/Untitled design (2) (1).png";
 previewImg.style.marginTop="50px";
 previewImg.style.height="400px";
 shape1Clicked = true;
