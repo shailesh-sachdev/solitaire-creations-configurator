@@ -31,7 +31,7 @@ document.getElementById("shape-4").classList.remove("active");
 });
 
 document.getElementById("shape-3").addEventListener("click", function(){
-  previewImg.src="new images/Untitled design (1) (1).png";
+  previewImg.src="New images/Untitled design (1) (1).png";
   previewImg.style.height="400px";
   previewImg.style.marginTop="50px";
   shape3Clicked = true;
@@ -42,7 +42,7 @@ document.getElementById("shape-3").addEventListener("click", function(){
 });
 
 document.getElementById("shape-4").addEventListener("click", function(){
-  previewImg.src="new images/Untitled design (4).png";
+  previewImg.src="New images/Untitled design (4).png";
   previewImg.style.height="400px";
   previewImg.style.marginTop="50px";
   shape4Clicked=true;
