@@ -1,3 +1,9 @@
+
+body{
+  background-color: #f4f4f4;
+}
+
+
 .main-div{
   width: 90%;
   border: solid;
@@ -10,11 +16,30 @@
   font-family: cursive;
   align-self: center;
   padding-bottom: +10px;
+  /* background-color: #94DBB3; */
+  background-color: #065507;
+
+  box-shadow: 4px 4px 6px #000000;
+
 }
 
 h1{
  text-align: center;
  color:#097e0b;
+ background-color: white;
+ width:50%;
+ margin: auto;
+ border:solid;
+   box-shadow: 4px 4px 6px #000000;
+}
+
+h2{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid;
+  border-radius: 10px;
+    box-shadow: 4px 4px 6px #000000;
 }
 
 .step-a{
@@ -23,36 +48,56 @@ h1{
 }
 .shapes{
   width: 30%;
+  height: 150px;
   border: solid;
   border-width: thin;
   background-color: white;
   border:solid;
-  border-width: 3px;
+  border-width: 0.5px;
   border-color: #097e0b;
   border-radius: 10px;
   color: #097e0b;
   align-content: center;
   margin-left: 10px;
   padding: 20px;
+  box-shadow: 4px 4px 6px #000000;
 }
+
+/* .h3-title{
+  color: red;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom:50px;
+}
+.h3-detail{
+  position:absolute;
+} */
 .shape-1{
   background-color: #097e0b;
   border-radius: 10px;
   width: 80px;
   height: 80px;
+  box-shadow: 4px 4px 6px #000000;
+  transition: transform .2s;
 }
 .shape-1:hover{
   background-color: #000000;
+
+transform: scale(1.2);
 }
 .shape-1:active{
   background-color: blue;
 }
+
 .shape-2{
-  background-color: #097e0b;
+  /* background-color: white;
   border-radius: 10px;
   width: 80px;
   height: 80px;
-  margin-left: +10px;
+
+  box-shadow: 4px 4px 6px #000000; */
+    margin-left: +10px;
 }
 .shape-2:hover{
   background-color: #000000;
@@ -61,10 +106,12 @@ h1{
   background-color: blue;
 }
 .shape-3{
-  background-color: #097e0b;
+  /* background-color: white;
   border-radius: 10px;
   width: 80px;
   height: 80px;
+
+  box-shadow: 4px 4px 6px #000000; */
   margin-left: +10px;
 }
 
@@ -75,10 +122,12 @@ h1{
   background-color: blue;
 }
 .shape-4{
-  background-color: #097e0b;
+  /* background-color: white;
   border-radius: 10px;
   width: 80px;
   height: 80px;
+
+  box-shadow: 4px 4px 6px #000000; */
   margin-left: +10px;
 }
 .shape-4:hover{
@@ -105,10 +154,13 @@ h1{
   width: 30%;
   margin-left: 475px;
   margin-top: -192px;
+  box-shadow: 4px 4px 6px #000000;
+
 }
 .size-1-img{
   margin-bottom:-25px;
   margin-top:-18px;
+
 }
 .sizes-1{
   width: 80px;
@@ -167,6 +219,14 @@ h1{
 .sizes-3:active{
   background-color: blue;
 }
+
+.sizes-div{
+  box-shadow: 4px 4px 6px #000000;
+  transition: transform .2s;
+}
+.sizes-div:hover{
+  transform: scale(1.2);
+}
 .colors{
   border: solid;
 border-width: thin;
@@ -184,6 +244,7 @@ height: 145px;
 width: 20%;
 margin-left: 985px;
 margin-top: -192px;
+box-shadow: 4px 4px 6px #000000;
 
 }
 .colors-div{
@@ -230,9 +291,13 @@ margin-top: -192px;
   /* background-color: #e0ece4; */
 }
 .step-b-h2{
-  text-align: left;
+  text-align: center;
   color: #097e0b;
-  margin-left: 200px;
+  margin-left: auto;
+  border: solid;
+  background-color: white;
+  box-shadow: 4px 4px 6px #000000;
+  border-radius: 10px;
 }
 
 .fixation{
@@ -244,6 +309,8 @@ margin-left: 10px;
   width:445px;
   height: 180px;
   color: #097e0b;
+  box-shadow: 4px 4px 6px #000000;
+  background-color: white;
 }
 .fixation-1{
   background-color: #097e0b;
@@ -306,6 +373,7 @@ margin-left: 10px;
 
 .custom-text{
   margin-top: +10px;
+  box-shadow: 4px 4px 6px #000000;
 }
 .text-area{
   margin-left:65px;
@@ -321,6 +389,7 @@ margin-left: 10px;
   margin-left: 350px;
   margin-top: +10px;
   font-weight: bolder;
+  box-shadow: 4px 4px 6px #000000;
 }
 .preset-text-1{
   margin-left:100px;
@@ -329,6 +398,7 @@ margin-left: 10px;
 .preset-text{
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 4px 4px 6px #000000;
 }
 
 .preset-options{
@@ -355,6 +425,20 @@ margin-left: 10px;
   border-radius: 10px;
   margin-left: 490px;
   margin-top: -587px;
+  box-shadow: 4px 4px 6px #000000;
+  background-color: white;
+}
+
+.preview-text{
+border:solid;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
+#preview-img{
+  margin-top: 50px;
+  height: 400px;
 }
 .finalize-btn{
   width: 180px;
@@ -378,4 +462,18 @@ h2{
 img{
   margin:auto;
 
+}
+.disapper{
+  display:none;
+}
+
+.green{
+  color: #097e0b;
+}
+
+.custom-input-text{
+  display:none;
+}
+.active{
+  background-color: blue;
 }
