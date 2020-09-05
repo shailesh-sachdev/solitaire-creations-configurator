@@ -31,7 +31,7 @@ document.getElementById("shape-4").classList.remove("active");
 });
 
 document.getElementById("shape-3").addEventListener("click", function(){
-  previewImg.src="New images/Untitled design (1) (1).png";
+  previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/Untitled%20design%20(1)%20(1).png?raw=true";
   previewImg.style.height="400px";
   previewImg.style.marginTop="50px";
   shape3Clicked = true;
@@ -42,7 +42,7 @@ document.getElementById("shape-3").addEventListener("click", function(){
 });
 
 document.getElementById("shape-4").addEventListener("click", function(){
-  previewImg.src="New images/Untitled design (4).png";
+  previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/Untitled%20design%20(4).png?raw=true";
   previewImg.style.height="400px";
   previewImg.style.marginTop="50px";
   shape4Clicked=true;
@@ -85,20 +85,20 @@ document.querySelector(".sizes-3").addEventListener("click", function(){
 
 document.querySelector(".color-1").addEventListener("click", function(){
   if(shape1Clicked===true){
-    previewImg.src="new images/rectan 1 black.png";
+    previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/rectan%201%20black.png?raw=true";
 
   }
   else {
     shape1Clicked===false;
   }
   if(shape3Clicked===true){
-    previewImg.src="new images/book 2 black outline.png";
+    previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/book%202%20black%20outline.png?raw=true";
 
   }
   else{shape3Clicked===false;}
 
 if(shape4Clicked===true){
-  previewImg.src="new images/heart 2.png"
+  previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/heart%202.png?raw=true"
 
 }
 else{shape4Clicked===false;}
@@ -108,20 +108,20 @@ else{shape4Clicked===false;}
 
 document.querySelector(".color-2").addEventListener("click", function(){
   if(shape1Clicked===true){
-    previewImg.src="new images/rectangle 3.png";
+    previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/rectangle%203.png?raw=true";
 
   }
   else {
     shape1Clicked===false;
   }
   if(shape3Clicked===true){
-    previewImg.src="new images/book 1.png";
+    previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/book%201.png?raw=true";
 
   }
   else{shape3Clicked===false;}
 
 if(shape4Clicked===true){
-  previewImg.src="new images/heart 1.png"
+  previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/heart%201.png?raw=true"
 
 }
 else{shape4Clicked===false;}
@@ -131,20 +131,20 @@ else{shape4Clicked===false;}
 
 document.querySelector(".color-3").addEventListener("click", function(){
   if(shape1Clicked===true){
-    previewImg.src="new images/rectan 1 black.png";
+    previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/rectan%201%20black.png?raw=true";
 
   }
   else {
     shape1Clicked===false;
   }
   if(shape3Clicked===true){
-    previewImg.src="new images/book 2 black outline.png";
+    previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/book%202%20black%20outline.png?raw=true";
 
   }
   else{shape3Clicked===false;}
 
 if(shape4Clicked===true){
-  previewImg.src="new images/heart 2.png"
+  previewImg.src="https://github.com/shailesh-sachdev/solitaire-creations-configurator/blob/master/New%20images/heart%202.png?raw=true"
 
 }
 else{shape4Clicked===false;}
